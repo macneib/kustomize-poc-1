@@ -4,6 +4,5 @@ kind: Kustomization
 resources:
 - ../main
 
-images:
-- name: busybox
-  newTag: 1.35.0
+image:
+  tag: "0.1.0"
