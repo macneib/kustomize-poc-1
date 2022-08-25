@@ -3,7 +3,3 @@ kind: Kustomization
 
 resources:
 - ../main
-
-images:
-- name: busybox
-  newTag: 1.35.0
