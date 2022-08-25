@@ -1,0 +1,13 @@
+---
+
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+helmChartInflationGenerator:
+- chartName: poc
+  chartRepoUrl: https://macneib.github.io/personal-helm-charts/
+  chartVersion: 0.1.0
+  releaseName: my-poc-release
+  releaseNamespace: poc
+  # override with these custom values
+  values: values.yaml
