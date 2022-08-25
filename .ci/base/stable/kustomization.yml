@@ -3,6 +3,3 @@ kind: Kustomization
 
 resources:
 - ../main
-
-image:
-  tag: "0.1.0"
