@@ -6,7 +6,7 @@ kind: Kustomization
 helmChartInflationGenerator:
 - chartName: poc
   chartRepoUrl: https://macneib.github.io/personal-helm-charts/
-  chartVersion: 0.1.0
+  chartVersion: 0.2.0
   releaseName: my-poc-release
   releaseNamespace: poc
   # override with these custom values

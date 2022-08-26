@@ -4,7 +4,7 @@ kind create cluster --config=infra/kind-config.yaml
 
 ```
 kubectl create namespace argocd
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+kubectl apply -n argocd -f infra/argo-cd-install.yaml
 ```
 
 ```
